@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+
+body,html{
+  background-color: #f7fcfe;
+}
+
+
+
+
+.parts_tit{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.parts_tit h1{
+  font-size: 30px;
+}
+
+.profile{
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+
+  background-color: #fff;
+  box-shadow: 0 0 8px gray;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.face{
+  width: 400px;
+  /* margin-right: 12.5%; */
+  /* margin-left: 5.9%; */
+  padding: 10% 10%;
+
+}
+
+.face img{
+  width: 100%;
+  height: auto;
+  /* box-shadow: 0 0 8px gray; */
+}
+
+
+.catch{
+  padding: 10% 5%;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  /* box-shadow: 0 0 8px gray; */
+  margin-bottom: 15.1%;
+  margin-top: 10%;
+}
+
+.p_catch{}
+
+.p_catch h2{
+  font-size: 24px;
+  margin-bottom: 5%;
+  /* margin-top: 13%; */
+}
+
+.p_catch_sen{
+  margin-top: 8%;
+  /* margin-bottom: 19.7%; */
+
+
+}
+
+.p_catch_sen p{
+  line-height: 24px;
+}
+
+.left{}
+
+.left_pro{
+  margin-top: 10%;
+  background-color: #fff;
+  /* box-shadow: 0 0 8px gray; */
+  padding: 5%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.l_p_txt{
+  display: flex;
+  margin-bottom: 20%;
+  width: 100%;
+}
+
+.l_p_txt_left{
+  width: 53%;
+  font-weight: bold;
+}
+
+.l_p_txt_right{
+  width: 37%;
+  margin: 0 0 0 auto;
+}
+
+.l_p_txt_right p{
+  margin-bottom: 5%;
+}
+
+.l_p_txt_right a{
+  padding: 0;
+  letter-spacing: 0px;
+}
+
+.l_p_txt_right a:hover{
+  opacity: 0.7;
+}
+
+.instagram i{
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+
+.right{
+  width: 50%;
+  margin: 0 0 0 auto;
+}
+.right_pro{
+  background-color: #fff;
+  /* box-shadow: 0 0 8px gray; */
+  padding: 5%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.r_p_txt{
+  display: flex;
+  margin-bottom: 10%;
+  width: 100%;
+}
+
+.r_p_txt_left{
+  width: 33%;
+  font-weight: bold;
+}
+
+.r_p_txt_right{
+  width: 57%;
+  margin: 0 0 0 auto;
+}
+
+.r_p_txt_right p{
+  margin-bottom: 5%;
+}
+
+.r_p_txt_right a{
+  padding: 0;
+  letter-spacing: 0px;
+}
+
+.r_p_txt_right a:hover{
+  opacity: 0.7;
+}
+
+
+
+
+
+.no_space{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+footer{
+  width: 100%;
+  position: relative;
+}
+
+.copy p{
+  width: 100%;
+  position: absolute;
+  bottom: 12px;
+  text-align: center;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #1b1b1f;
+}
+
+
+
+
+
+
+
+
+
+
+  

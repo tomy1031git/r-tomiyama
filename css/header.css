@@ -1,0 +1,40 @@
+body,html{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+li{
+	list-style-type: none;
+}
+
+li:hover i{
+	color: orange;
+	transition: 0.5s;
+}
+
+i{
+	color: #fff;
+}
+
+.header{
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid #555;/* headerの下線 */
+}
+
+.header .logo{
+	width: 160px;
+	height: 39px;
+	margin-right: calc(100% - 650px);
+	padding: 10px;
+}
+
+
+
+
