@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<title>RYUTA TOMIYAMA</title>
+<meta name="robots" content="noindex,nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/mailform.css" />
+<link rel="stylesheet" href="../css/footer_nav.css" />
+
+<!-- ご希望の日時選択ライブラリここから -->
+<link rel="stylesheet" href="css/jquery.datetimepicker.css" />
+<!-- ご希望の日時選択ライブラリここまで -->
+</head>
+<body>
+
+
+<div class="contact_tit">
+	<h1>CONTACT</h1>
+</div>
+
+<form action="php/mailform.php" method="post" id="mail_form">
+	<dl>
+
+		
+		<dt>お名前</dt>
+		<dd class="required"><input type="text" id="name_1" name="name_1" value="" /> <input type="text" id="name_2" name="name_2" value="" /></dd>
+		
+		<dt>ふりがな</dt>
+		<dd class="required"><input type="text" id="read_1" name="read_1" value="" /> <input type="text" id="read_2" name="read_2" value="" /></dd>
+		
+		<dt>メールアドレス</dt>
+		<dd class="required"><input type="email" id="mail_address" name="mail_address" value="" /></dd>
+		
+		
+
+		
+		<dt>電話番号(ハイフン無)</dt>
+		<dd><input type="tel" id="phone" name="phone" value="" /></dd>
+		
+		
+
+		
+		
+<!-- 		<dt>返信方法のご希望</dt>
+		<dd class="required">
+			<ul>
+				<li><label><input type="checkbox" class="response" name="response[]" value="メールでの返信を希望" />メールでの返信を希望</label></li>
+				<li><label><input type="checkbox" class="response" name="response[]" value="返信不要" />返信不要</label></li>
+			</ul>
+		</dd> -->
+		
+		<dt>お問い合わせの内容</dt>
+		<dd class="required"><textarea id="mail_contents" name="mail_contents" cols="40" rows="5"></textarea></dd>
+		
+	</dl>
+	
+	<p id="form_submit"><input type="button" id="form_submit_button" value="送信する" /></p>
+</form>
+    <div class="footer_nav">
+      <div id="container-example">
+ 
+        <div class='strip colour-2'>
+          <a href="../index.html" class="">Home</a>
+          <a href="../coding.html" class="">Coding</a>
+          <a href="../parts.html" class="">Parts</a>
+          <a href="../profile.html" class="">Profile</a>
+          <a href="index.html" class="">Contact</a>
+        </div>
+       
+      </div><!--  container-example  -->
+    </div><!--  footer_nav  -->
+
+      <footer>
+        <div class="copy">
+          <p>© 2019 RYUTA TOMIYAMA All rights reserved.</p>
+        </div>
+      </footer>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="js/mailform-js.php"></script>
+
+
+<!-- フリガナ自動入力ライブラリここから -->
+<script src="js/jquery.autoKana.js"></script>
+<script>
+	(function( $ ) {
+    $.fn.autoKana( '#name_1', '#read_1', {
+      katakana: false
+    });
+    $.fn.autoKana( '#name_2', '#read_2', {
+      katakana: false
+    });
+	})( jQuery );
+</script>
+<!-- フリガナ自動入力ライブラリここまで -->
+
+
+<!-- 住所自動入力ライブラリここから -->
+<script src="js/ajaxzip3.js"></script>
+<!-- 住所自動入力ライブラリここまで -->
+
+
+<!-- ご希望の日時選択ライブラリここから -->
+<script src="js/jquery.datetimepicker.js"></script>
+<script>
+	(function( $ ) {
+		$( 'input#schedule' ).datetimepicker({
+			lang: 'ja'
+		});
+	})( jQuery );
+</script>
+<!-- ご希望の日時選択ライブラリここまで -->
+
+
+</body>
+</html>
