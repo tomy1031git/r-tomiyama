@@ -91,6 +91,52 @@ a:visited{
 
 
 
+.colour-5 {
+  display: block;
+  width: 60%;
+  background: #f7fcfe;
+  margin: 0 auto;
+  margin-top: 20%;
+  margin-bottom: 7%;
+  text-align: center;
+}
+.colour-5 a {
+  border-left: 2px solid #1f1f1b;
+  border-right: 2px solid #1f1f1b;
+}
+.colour-5 a::before, a::after {
+  content:'';
+  position: absolute;
+  height: 100%;
+  margin: auto;
+}
+.colour-5 a::before {
+  border-left: 2px solid #f7fcfe;
+  border-right: 2px solid #f7fcfe;
+  width: calc(100% + 4px);
+  top: 0;
+  left: -2px;
+  transition: all 0.2s ease;
+  transition-delay: 0.2s;
+}
+.colour-5 a::after {
+  border-top: 2px solid #1f1f1b;
+  border-bottom: 2px solid #1f1f1b;
+  width: 0;
+  top: 0;
+  left: 50%;
+  transition: all 0.2s ease;
+}
+.colour-5 a:hover::before {
+  height: 0;
+  top: 50%;
+}
+.colour-5 a:hover::after {
+  width: calc(100% + 4px);
+  left: -2px;
+}
+
+  
   
 
   
