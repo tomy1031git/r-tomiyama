@@ -238,6 +238,7 @@ p{
 #section1 p{
 	color: #333;
 	/* color: rgba(0,0,0,0.3); */
+	margin-top: 20px;
 }
 #section1 img{
 	margin: 0px 0px;
